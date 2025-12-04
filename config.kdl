@@ -314,6 +314,9 @@ binds {
     // == Chatgpt with Firefox ===
     Mod+Shift+A {spawn "firefox" "https://chatgpt.com";}
     
+      // == Youtube with Firefox ===
+    Mod+Shift+Y {spawn "firefox" "https://youtube.com";}
+
     // == Lock screen ==
        Ctrl+Alt+L hotkey-overlay-title="Lock Screen" {
         spawn "dms" "ipc" "call" "lock" "lock"
