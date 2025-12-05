@@ -36,32 +36,13 @@ This page lists all keyboard shortcuts configured in Niri Desktop (`config.kdl`)
 | `Mod+Shift+P` | Power off monitors |
 
 ---
-
-## Audio Controls
-
-| Shortcut | Action |
-|----------|--------|
-| `XF86AudioRaiseVolume` | Increase volume by 3 |
-| `XF86AudioLowerVolume` | Decrease volume by 3 |
-| `XF86AudioMute` | Mute audio |
-| `XF86AudioMicMute` | Mute microphone |
-
----
-
-## Brightness Controls
-
-| Shortcut | Action |
-|----------|--------|
-| `XF86MonBrightnessUp` | Increase brightness by 5 |
-| `XF86MonBrightnessDown` | Decrease brightness by 5 |
-
 ---
 
 ## Window Management
 
 | Shortcut | Action |
 |----------|--------|
-| `Mod+Q` | Close window |
+| `Mod+Shift+Q` | Close window |
 | `Mod+F` | Maximize column |
 | `Mod+Shift+F` | Fullscreen window |
 | `Mod+Shift+T` | Toggle window floating |
