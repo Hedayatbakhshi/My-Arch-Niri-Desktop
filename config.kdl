@@ -37,7 +37,7 @@ input {
         // drag false
         // drag-lock
         natural-scroll
-        // accel-speed 0.2
+         accel-speed 0.5
         // accel-profile "flat"
         // scroll-factor 1.0
         // scroll-factor vertical=1.0 horizontal=-2.0
@@ -53,7 +53,7 @@ input {
     mouse {
         // off
         // natural-scroll
-        // accel-speed 0.2
+        accel-speed 0.8
         // accel-profile "flat"
         // scroll-factor 1.0
         // scroll-factor vertical=1.0 horizontal=-2.0
@@ -200,7 +200,7 @@ overview {
 // See the binds section below for more spawn examples.
 // This line starts waybar, a commonly used bar for Wayland compositors.
 spawn-at-startup "bash" "-c" "wl-paste --watch cliphist store &"
-spawn-at-startup "dms" "run"
+// spawn-at-startup "dms" "run"
 spawn-at-startup "/usr/lib/mate-polkit/polkit-mate-authentication-agent-1"
 environment {
   XDG_CURRENT_DESKTOP "niri"
@@ -317,11 +317,6 @@ binds {
       // == Youtube with Firefox ===
     Mod+Shift+Y {spawn "firefox" "https://youtube.com";}
 
-    // == Lock screen ==
-       Ctrl+Alt+L hotkey-overlay-title="Lock Screen" {
-        spawn "dms" "ipc" "call" "lock" "lock"
-    }
-    
     // === System & Overview ===
     Mod+Space { spawn "niri" "msg" "action" "toggle-overview"; }
     Mod+Tab repeat=false { toggle-overview; }
